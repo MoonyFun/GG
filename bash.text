@@ -1,0 +1,28 @@
+echo "set completion-ignore-case On" >> ~/.inputrc
+
+
+#enables colorin the terminal bash shell export
+export CLICOLOR=1
+
+#sets up thecolor scheme for list export
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
+#sets up theprompt color (currently a green similar to linux terminal)
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ '
+
+#enables colorfor iTerm
+export TERM=xterm-256color
+
+
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"
+export PATH=${PATH}:/Users/MOONY/Library/Android/sdk/platform-tools
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home
+export ANDROID_HOME="/Users/MOONY/Library/Android/sdk"
+
+alias pyhttp="python -m SimpleHTTPServer"
+
+export PATH=${PATH}:/Users/MOONY/Library/Android/sdk/ndk-bundle
+
+export PATH=${PATH}:/usr/local/Cellar/subversion/1.9.3
+
+export PATH=${PATH}:/Applications/Android\ Studio.app/Contents/gradle/gradle-2.10/bin

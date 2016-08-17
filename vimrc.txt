@@ -1,0 +1,28 @@
+syntax on
+
+set number
+
+set tabstop=4
+
+set softtabstop=4
+
+set shiftwidth=4
+
+set expandtab
+
+let g:solarized_termcolors=256
+let g:acp_completeoptPreview=1
+
+set nocompatible                " be iMproved
+filetype off                    " required!
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/vundle'
+Plugin 'pangloss/vim-javascript'
+Plugin 'AutoComplPop'
+Plugin 'tomasr/molokai'
+
+filetype plugin indent on
+
+"搜索逐字高亮
