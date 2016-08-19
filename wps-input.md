@@ -27,3 +27,16 @@ gOpt=
 ........
 ******************************
 ```
+wps演示不能输入中文解决
+```autoit
+$ vi /usr/bin/wpp      # 添加内容，字体标注
+*******************************
+#!/bin/bash
+export XMODIFIERS="@im=fcitx"
+export QT_IM_MODULE="fcitx"
+gOpt=
+#gOptExt=-multiply
+gTemplateExt=("wpt" "dot" "dotx")
+.......
+************************
+```
