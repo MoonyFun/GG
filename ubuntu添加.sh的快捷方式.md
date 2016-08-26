@@ -18,6 +18,8 @@ Type=Application
 ```
 
 **如出现无法找到JDK：**
+
+
 1.打开人sh文件
 `vim studio.sh`
 
