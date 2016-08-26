@@ -1,0 +1,17 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="2" />
+    <property name="AndroidInitConfigurator.V4" value="true" />
+    <property name="AndroidInitConfigurator.V3" value="true" />
+    <property name="AndroidInitConfigurator.V1" value="true" />
+    <property name="AndroidInitConfigurator.V2" value="true" />
+    <property name="installation.uid" value="0931066c-5574-42bb-87c8-ac431ca201b7" />
+    <property name="android-component-compatibility-check" value="1472109829876" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/jdk1.8.0_101&#10;/home/moony/AndroidStudioProjects/qiyefetion/android/build.gradle" />
+    <property name="lastTip" value="2" />
+    <property name="selected.color.option.type" value="LOGCAT_ERROR_OUTPUT" />
+    <property name="ColorChooser.RecentColors" value="0-187-107-255,,,187-121-50-255,,,255-144-142-255,,,255-149-149-255,,,106-114-187-255,,,62-118-187-255,,,92-73-187-255,,,42-52-187-255,,,59-140-187-255,,,97-158-187-255,,,88-150-187-255" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+  </component>
+</application>
