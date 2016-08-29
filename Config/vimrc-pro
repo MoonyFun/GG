@@ -1,0 +1,107 @@
+syntax on
+
+set number
+
+set tabstop=4
+
+set softtabstop=4
+
+set shiftwidth=4
+
+set expandtab
+
+
+"===============================================
+"Vundle setting
+
+set nocompatible
+
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+" some plugin
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+
+call vundle#end() 
+filetype plugin indent on
+
+
+" Vundle常用命令:
+" :PluginList       - 查看已经安装的插件
+" :PluginInstall    - 安装插件
+" :PluginUpdate     - 更新插件
+" :PluginSearch     - 搜索插件，例如 :PluginSearch xml就能搜到xml相关的插件
+" :PluginClean      - 删除插件，把安装插件对应行删除，然后执行这个命令即可
+"  h: vundle         - 获取帮助
+"================================================
+
+
+
+" ===============================================
+" nerd tree 
+
+" 键映射 打开nerd tree
+map <C-n> :NERDTreeToggle<CR>
+
+" ctrl + w + h: 光标 focus 左侧树形目录
+" ctrl + w + l: 光标 focus 右侧文件显示窗口
+" ctrl + w + w: 光标自动在左右侧窗口切换
+" o: 在已有窗口中打开文件、目录或书签，并跳到该窗口
+" t: 在新 Tab 中打开选中文件/书签，并跳到新 Tab
+" T: 在新 Tab 中打开选中文件/书签，但不跳到新 Tab
+" x: 合拢选中结点的父目录
+" p: 跳到父结点
+" P: 跳到根结点
+" j: 跳到同级下一个目录或文件
+" k: 跳到同级上一个目录或文件
+" m：显示文件系统菜单(可以新建文件，删除文件，复制文件等)
+" C: 将选中目录或选中文件的父目录设为根结点
+" r: 递归刷新选中目录
+" R: 递归刷新根结点
+" gT: 前一个 tab
+" gt: 后一个 tab
+" “+y: 将选中的行粘贴到系统剪贴板
+"================================================
+
+
+
+"================================================
+" ctrlp 文件搜索
+"
+" CtrlP or :CtrlP [starting-directory]: 打开查找模式
+" 运行命令:CtrlP或:CtrlP [starting-directory]来以查找文件模式来启用 ctrlp
+" 运行命令:CtrlPBuffer或:CtrlPMRU来以查找缓冲或最近打开文件模式来启用ctrlp
+" 运行命令CtrlPMixed来查找文件、查找缓冲和最近打开文件混合模式来启动 ctrlp
+" 
+" 基本使用
+"
+" 按<c-f>和<c-b>在三种查找模式中互相切换
+" 按<c-y>来创建新文件和对应的父目录
+" 按<c-d>来切换到只查找文件名而不是全路径
+" 按<c-j>，<c-k>或箭头方向键来移动查找结果列表
+" 按<c-t>或<c-v>，<c-x>来以新标签或分割窗口的方式来打开文件
+" 按<c-z>来标识或取消标识文件，然后按<c-o>来打开文件
+" 按<c-n>，<c-p>来在提示历史中选择下一个/上一个字符串
+"
+"================================================
+
+
+
+"================================================
+" airline
+
+set laststatus=2
+"let g:airline#extensions#tabline#enabled = 1
+
+"================================================
+
+
