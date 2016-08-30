@@ -19,12 +19,4 @@ find .|xargs grep -ri "图标名" -l
 
 在查找结果中删除对应的文件就可以了。（可能重启才生效）
 
-查看安装包
-	`dpkg -l | grep qq`
-
-完全卸载
-	`sudo apt-get autoremove --purge unity-tweak-tool`
-
-重装
-	`sudo apt-get install -f unity-tweak-tool`
 
